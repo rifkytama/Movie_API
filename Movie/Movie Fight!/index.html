@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Warehouse</title>
+  </head>
+
+  <body>
+
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="title">
+            Movie Marathon
+            <span class="icon">
+              <img src="/img/movie.png" alt="">
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="column">
+        <h1 class="title">Search For a Movie by Title!</h1>
+        </div>
+        </div>
+  
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div id="right-autocomplete"></div>
+            <div id="right-summary"></div>
+          </div>
+  
+          <div class="column">
+            <div id="left-autocomplete"></div>
+            <div id="left-summary"></div>
+          </div>
+        </div>
+    </section>
+
+    
+    <div class="hero-footer">
+      <p>@Copyright || MovieMarathon 2023</p>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
